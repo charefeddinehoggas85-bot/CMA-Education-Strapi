@@ -1,51 +1,5 @@
 import type { Schema, Attribute } from '@strapi/strapi';
 
-export interface UiStatItem extends Schema.Component {
-  collectionName: 'components_ui_stat_items';
-  info: {
-    displayName: 'Stat Item';
-    description: '\u00C9l\u00E9ment de statistique avec chiffre et label';
-  };
-  attributes: {
-    number: Attribute.Integer & Attribute.Required;
-    label: Attribute.String & Attribute.Required;
-    suffix: Attribute.String & Attribute.DefaultTo<''>;
-    prefix: Attribute.String & Attribute.DefaultTo<''>;
-    icon: Attribute.String;
-    color: Attribute.String & Attribute.DefaultTo<'#3b82f6'>;
-  };
-}
-
-export interface UiContactInfo extends Schema.Component {
-  collectionName: 'components_ui_contact_infos';
-  info: {
-    displayName: 'Contact Info';
-    description: 'Information de contact (t\u00E9l\u00E9phone, email, adresse)';
-  };
-  attributes: {
-    type: Attribute.Enumeration<['phone', 'email', 'address', 'hours']> &
-      Attribute.Required;
-    label: Attribute.String & Attribute.Required;
-    value: Attribute.String & Attribute.Required;
-    icon: Attribute.String;
-  };
-}
-
-export interface UiButton extends Schema.Component {
-  collectionName: 'components_ui_buttons';
-  info: {
-    displayName: 'Button';
-    description: "Bouton d'action";
-  };
-  attributes: {
-    text: Attribute.String & Attribute.Required;
-    url: Attribute.String & Attribute.Required;
-    style: Attribute.Enumeration<['primary', 'secondary', 'outline']> &
-      Attribute.DefaultTo<'primary'>;
-    openInNewTab: Attribute.Boolean & Attribute.DefaultTo<false>;
-  };
-}
-
 export interface SectionsTextSection extends Schema.Component {
   collectionName: 'components_sections_text_sections';
   info: {
@@ -159,6 +113,65 @@ export interface SectionsContactSection extends Schema.Component {
   };
 }
 
+export interface UiStatItem extends Schema.Component {
+  collectionName: 'components_ui_stat_items';
+  info: {
+    displayName: 'Stat Item';
+    description: '\u00C9l\u00E9ment de statistique avec chiffre et label';
+  };
+  attributes: {
+    number: Attribute.Integer & Attribute.Required;
+    label: Attribute.String & Attribute.Required;
+    suffix: Attribute.String & Attribute.DefaultTo<''>;
+    prefix: Attribute.String & Attribute.DefaultTo<''>;
+    icon: Attribute.String;
+    color: Attribute.String & Attribute.DefaultTo<'#3b82f6'>;
+  };
+}
+
+export interface UiContactInfo extends Schema.Component {
+  collectionName: 'components_ui_contact_infos';
+  info: {
+    displayName: 'Contact Info';
+    description: 'Information de contact (t\u00E9l\u00E9phone, email, adresse)';
+  };
+  attributes: {
+    type: Attribute.Enumeration<['phone', 'email', 'address', 'hours']> &
+      Attribute.Required;
+    label: Attribute.String & Attribute.Required;
+    value: Attribute.String & Attribute.Required;
+    icon: Attribute.String;
+  };
+}
+
+export interface UiButton extends Schema.Component {
+  collectionName: 'components_ui_buttons';
+  info: {
+    displayName: 'Button';
+    description: "Bouton d'action";
+  };
+  attributes: {
+    text: Attribute.String & Attribute.Required;
+    url: Attribute.String & Attribute.Required;
+    style: Attribute.Enumeration<['primary', 'secondary', 'outline']> &
+      Attribute.DefaultTo<'primary'>;
+    openInNewTab: Attribute.Boolean & Attribute.DefaultTo<false>;
+  };
+}
+
+export interface FormationAvantage extends Schema.Component {
+  collectionName: 'components_formation_avantages';
+  info: {
+    displayName: 'Avantage';
+    description: "Avantage d'une modalit\u00E9";
+  };
+  attributes: {
+    titre: Attribute.String & Attribute.Required;
+    description: Attribute.Text;
+    icon: Attribute.String;
+  };
+}
+
 export interface ContactTelephone extends Schema.Component {
   collectionName: 'components_contact_telephones';
   info: {
@@ -252,38 +265,25 @@ export interface ContactAdresse extends Schema.Component {
   };
 }
 
-export interface FormationAvantage extends Schema.Component {
-  collectionName: 'components_formation_avantages';
-  info: {
-    displayName: 'Avantage';
-    description: "Avantage d'une modalit\u00E9";
-  };
-  attributes: {
-    titre: Attribute.String & Attribute.Required;
-    description: Attribute.Text;
-    icon: Attribute.String;
-  };
-}
-
 declare module '@strapi/types' {
   export module Shared {
     export interface Components {
-      'ui.stat-item': UiStatItem;
-      'ui.contact-info': UiContactInfo;
-      'ui.button': UiButton;
       'sections.text-section': SectionsTextSection;
       'sections.testimonials-section': SectionsTestimonialsSection;
       'sections.stats-section': SectionsStatsSection;
       'sections.hero-section': SectionsHeroSection;
       'sections.gallery-section': SectionsGallerySection;
       'sections.contact-section': SectionsContactSection;
+      'ui.stat-item': UiStatItem;
+      'ui.contact-info': UiContactInfo;
+      'ui.button': UiButton;
+      'formation.avantage': FormationAvantage;
       'contact.telephone': ContactTelephone;
       'contact.reseau-social': ContactReseauSocial;
       'contact.horaire': ContactHoraire;
       'contact.email': ContactEmail;
       'contact.coordonnees-gps': ContactCoordonneesGps;
       'contact.adresse': ContactAdresse;
-      'formation.avantage': FormationAvantage;
     }
   }
 }
