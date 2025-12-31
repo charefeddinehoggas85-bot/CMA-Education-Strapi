@@ -1,9 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "page_formations",
+  "collectionName": "page_formations_list",
   "info": {
-    "singularName": "page-formations",
-    "pluralName": "page-formations",
+    "singularName": "page-formations-list",
+    "pluralName": "page-formations-lists",
     "displayName": "Page Formations",
     "description": "Single Type pour gérer la page liste des formations"
   },
