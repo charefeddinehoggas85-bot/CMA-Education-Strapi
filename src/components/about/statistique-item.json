@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_statistique_items",
+  "info": {
+    "displayName": "Statistique Item",
+    "icon": "chartPie",
+    "description": "Statistique clé de l'école"
+  },
+  "options": {},
+  "attributes": {
+    "valeur": {
+      "type": "string",
+      "required": true
+    },
+    "suffixe": {
+      "type": "string"
+    },
+    "titre": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "ordre": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

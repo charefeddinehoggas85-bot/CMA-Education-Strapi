@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_abouts",
+  "info": {
+    "singularName": "page-about",
+    "pluralName": "page-abouts",
+    "displayName": "Page À Propos",
+    "description": "Single Type pour gérer la page À Propos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Qui sommes nous"
+    },
+    "heroSubtitle": {
+      "type": "string",
+      "default": "Centre de formation BTP"
+    },
+    "heroDescription": {
+      "type": "text",
+      "required": true,
+      "default": "Un centre de formation BTP reconnu pour son savoir-faire dans la préparation aux métiers de la conduite et du management de travaux."
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "histoireTitle": {
+      "type": "string",
+      "default": "Notre Histoire"
+    },
+    "histoireContent": {
+      "type": "text"
+    },
+    "missionTitle": {
+      "type": "string",
+      "default": "Notre Mission"
+    },
+    "missionDescription": {
+      "type": "text",
+      "default": "À travers des formations concrètes, accessibles et orientées terrain, notre mission est de rendre chaque apprenant immédiatement opérationnel et acteur de la transformation du BTP."
+    },
+    "visionTitle": {
+      "type": "string",
+      "default": "Notre Vision"
+    },
+    "visionDescription": {
+      "type": "text",
+      "default": "Devenir une référence nationale dans la formation BTP, en plaçant l'innovation, la durabilité et la performance au cœur de chaque parcours."
+    },
+    "visionDetails": {
+      "type": "text",
+      "default": "Grâce à une veille constante du marché et à l'intervention de professionnels en activité, nos formations évoluent en permanence pour rester en phase avec les réalités du terrain et les attentes des entreprises."
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.feature-item"
+    },
+    "statistiques": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about.statistique-item"
+    },
+    "metaTitle": {
+      "type": "string",
+      "default": "À Propos - Construction Management Academy"
+    },
+    "metaDescription": {
+      "type": "text",
+      "default": "Découvrez Construction Management Academy, centre de formation BTP spécialisé dans la conduite et le management de travaux."
+    }
+  }
+}

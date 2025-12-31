@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_about_feature_items",
+  "info": {
+    "displayName": "Feature Item",
+    "icon": "star",
+    "description": "Caractéristique/atout de l'école"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": ["Building2", "Users", "Award", "Lightbulb", "Target", "Cog", "Heart", "Star", "BookOpen", "GraduationCap"],
+      "default": "Building2"
+    },
+    "ordre": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
