@@ -1,0 +1,67 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_blogs",
+  "info": {
+    "singularName": "page-blog",
+    "pluralName": "page-blogs",
+    "displayName": "Page Blog",
+    "description": "Single Type pour gérer la page Blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Blog Construction Management Academy"
+    },
+    "heroSubtitle": {
+      "type": "text",
+      "default": "Découvrez nos derniers articles sur les formations BTP, les tendances du secteur et les conseils de nos experts"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "heroBadgeText": {
+      "type": "string",
+      "default": "Ressources & Actualités"
+    },
+    "sectionTitle": {
+      "type": "string",
+      "default": "Nos derniers articles"
+    },
+    "sectionSubtitle": {
+      "type": "text",
+      "default": "Restez informé des actualités du BTP et des conseils pour votre carrière"
+    },
+    "featuredSectionTitle": {
+      "type": "string",
+      "default": "Articles en vedette"
+    },
+    "searchPlaceholder": {
+      "type": "string",
+      "default": "Rechercher un article..."
+    },
+    "noArticlesText": {
+      "type": "string",
+      "default": "Aucun article trouvé"
+    },
+    "allCategoriesText": {
+      "type": "string",
+      "default": "Tous"
+    },
+    "metaTitle": {
+      "type": "string",
+      "default": "Blog - Construction Management Academy"
+    },
+    "metaDescription": {
+      "type": "text",
+      "default": "Découvrez nos articles sur les formations BTP, les tendances du secteur et les conseils de nos experts pour votre carrière dans le bâtiment."
+    }
+  }
+}
