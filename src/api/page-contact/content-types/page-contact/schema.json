@@ -1,0 +1,169 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_contacts",
+  "info": {
+    "singularName": "page-contact",
+    "pluralName": "page-contacts",
+    "displayName": "Page Contact",
+    "description": "Single Type pour gérer la page contact/inscription"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "heroTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Rejoignez Construction Management Academy !"
+    },
+    "heroSubtitle": {
+      "type": "text",
+      "default": "Processus d'admission simplifié, sans concours d'entrée. L'admission se fait uniquement sur entretien de motivation."
+    },
+    "admissionSectionTitle": {
+      "type": "string",
+      "default": "Parcours d'admission Construction Management Academy"
+    },
+    "admissionSectionSubtitle": {
+      "type": "text",
+      "default": "Un processus simplifié en {count} étapes pour intégrer nos formations"
+    },
+    "partnersSectionTitle": {
+      "type": "string",
+      "default": "Nos partenaires de confiance"
+    },
+    "partnersSectionSubtitle": {
+      "type": "string",
+      "default": "Des entreprises leaders qui recrutent nos diplômés"
+    },
+    "contactSectionTitle": {
+      "type": "string",
+      "default": "Contactez-nous"
+    },
+    "contactImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "addressLabel": {
+      "type": "string",
+      "default": "Adresse"
+    },
+    "addressValue": {
+      "type": "string",
+      "default": "67-69 Avenue du Général de Gaulle, 77420 Champs sur Marne"
+    },
+    "phoneLabel": {
+      "type": "string",
+      "default": "Téléphone"
+    },
+    "phoneValue": {
+      "type": "string",
+      "default": "01 89 70 60 52"
+    },
+    "emailLabel": {
+      "type": "string",
+      "default": "Email"
+    },
+    "emailValue": {
+      "type": "string",
+      "default": "contact.academy@cma-education.com"
+    },
+    "inscriptionLabel": {
+      "type": "string",
+      "default": "Inscription"
+    },
+    "inscriptionEmail": {
+      "type": "string",
+      "default": "inscription.academy@construction-management-academy.fr"
+    },
+    "reactiviteLabel": {
+      "type": "string",
+      "default": "Réactivité"
+    },
+    "reactiviteValue": {
+      "type": "string",
+      "default": "Réponse sous 24h"
+    },
+    "reactiviteDetail": {
+      "type": "string",
+      "default": "Décision sous 48h après entretien"
+    },
+    "noFeesTitle": {
+      "type": "string",
+      "default": "Aucun frais de scolarité"
+    },
+    "noFeesDescription": {
+      "type": "text",
+      "default": "Aucun frais de scolarité ou d'inscription ne sera demandé à l'alternant."
+    },
+    "formTitle": {
+      "type": "string",
+      "default": "Formulaire d'inscription"
+    },
+    "formPrenomPlaceholder": {
+      "type": "string",
+      "default": "Prénom *"
+    },
+    "formNomPlaceholder": {
+      "type": "string",
+      "default": "Nom *"
+    },
+    "formDateNaissancePlaceholder": {
+      "type": "string",
+      "default": "Date de naissance *"
+    },
+    "formTelephonePlaceholder": {
+      "type": "string",
+      "default": "Téléphone *"
+    },
+    "formEmailPlaceholder": {
+      "type": "string",
+      "default": "Email *"
+    },
+    "formCodePostalPlaceholder": {
+      "type": "string",
+      "default": "Code postal *"
+    },
+    "formFormationPlaceholder": {
+      "type": "string",
+      "default": "Sélectionner la Formation *"
+    },
+    "formCvLabel": {
+      "type": "string",
+      "default": "Téléverser votre CV"
+    },
+    "formDiplomeLabel": {
+      "type": "string",
+      "default": "Téléverser votre dernier diplôme"
+    },
+    "formConsentText": {
+      "type": "text",
+      "default": "J'accepte être recontacté et que mes données soient collectées par Construction Management Academy"
+    },
+    "formSubmitButtonText": {
+      "type": "string",
+      "default": "Accéder à la préinscription"
+    },
+    "formSubmitButtonUrl": {
+      "type": "string",
+      "default": "https://cma-education.ymag.cloud/index.php/preinscription/"
+    },
+    "metaTitle": {
+      "type": "string",
+      "default": "Contact & Inscription - Construction Management Academy"
+    },
+    "metaDescription": {
+      "type": "text",
+      "default": "Contactez Construction Management Academy pour votre inscription. Processus d'admission simplifié, sans concours d'entrée. Réponse sous 24h."
+    }
+  }
+}
