@@ -1,0 +1,143 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_formations",
+  "info": {
+    "singularName": "page-formations",
+    "pluralName": "page-formations",
+    "displayName": "Page Formations",
+    "description": "Single Type pour gérer la page liste des formations"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "heroBadgeText": {
+      "type": "string",
+      "default": "Formations BTP Certifiantes"
+    },
+    "heroTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Formations BTP Certifiantes"
+    },
+    "heroDescription": {
+      "type": "text",
+      "default": "Formation conducteur de travaux, formation chargé d'affaires bâtiment et formation BTP alternance. Formations certifiantes RNCP avec 98% d'insertion professionnelle. Prise en charge OPCO intégrale."
+    },
+    "statFormationsCount": {
+      "type": "string",
+      "default": "8"
+    },
+    "statFormationsLabel": {
+      "type": "string",
+      "default": "Formations diplômantes"
+    },
+    "statInsertionRate": {
+      "type": "string",
+      "default": "98%"
+    },
+    "statInsertionLabel": {
+      "type": "string",
+      "default": "Taux d'insertion"
+    },
+    "statPriseEnCharge": {
+      "type": "string",
+      "default": "100%"
+    },
+    "statPriseEnChargeLabel": {
+      "type": "string",
+      "default": "Prise en charge"
+    },
+    "statPartenairesCount": {
+      "type": "string",
+      "default": "20+"
+    },
+    "statPartenairesLabel": {
+      "type": "string",
+      "default": "Entreprises partenaires"
+    },
+    "alternanceTitle": {
+      "type": "string",
+      "default": "Formation en alternance"
+    },
+    "alternanceSubtitle": {
+      "type": "text",
+      "default": "Formations alliant enseignement théorique et expérience en entreprise pour former des professionnels immédiatement opérationnels"
+    },
+    "reconversionTitle": {
+      "type": "string",
+      "default": "Professionnels en reconversion"
+    },
+    "reconversionSubtitle": {
+      "type": "text",
+      "default": "Formations pensées pour consolider votre savoir-faire avec une reconnaissance officielle, en valorisant votre expérience terrain"
+    },
+    "vaeTitle": {
+      "type": "string",
+      "default": "Professionnels en VAE"
+    },
+    "vaeSubtitle": {
+      "type": "text",
+      "default": "Transformez votre expérience en certification professionnelle reconnue"
+    },
+    "entrepriseTitle": {
+      "type": "string",
+      "default": "Pour les entreprises"
+    },
+    "entrepriseSubtitle": {
+      "type": "text",
+      "default": "Accompagnement des entreprises pour faire évoluer leurs salariés et développer leurs compétences"
+    },
+    "ctaTitle": {
+      "type": "string",
+      "default": "Prêt à transformer votre avenir professionnel ?"
+    },
+    "ctaSubtitle": {
+      "type": "text",
+      "default": "Contactez-nous pour un entretien personnalisé et découvrir la formation qui vous correspond"
+    },
+    "ctaPrimaryButtonText": {
+      "type": "string",
+      "default": "Candidater maintenant"
+    },
+    "ctaSecondaryButtonText": {
+      "type": "string",
+      "default": "Télécharger la brochure"
+    },
+    "candidaterUrl": {
+      "type": "string",
+      "default": "https://cma-education.ymag.cloud/index.php/preinscription/"
+    },
+    "navAlternanceText": {
+      "type": "string",
+      "default": "Formation en alternance"
+    },
+    "navReconversionText": {
+      "type": "string",
+      "default": "Professionnels en reconversion"
+    },
+    "navVaeText": {
+      "type": "string",
+      "default": "Professionnels en VAE"
+    },
+    "navEntrepriseText": {
+      "type": "string",
+      "default": "Pour les entreprises"
+    },
+    "metaTitle": {
+      "type": "string",
+      "default": "Formations BTP Certifiantes - Construction Management Academy"
+    },
+    "metaDescription": {
+      "type": "text",
+      "default": "Découvrez nos formations BTP certifiantes RNCP : conducteur de travaux, chargé d'affaires bâtiment, alternance et reconversion. 98% d'insertion professionnelle."
+    }
+  }
+}
