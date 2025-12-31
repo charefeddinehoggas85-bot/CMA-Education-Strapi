@@ -1,0 +1,140 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_formation_details",
+  "info": {
+    "singularName": "page-formation-detail",
+    "pluralName": "page-formation-details",
+    "displayName": "Page Formation Détail",
+    "description": "Single Type pour gérer les textes communs des pages de détail formation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "backButtonText": {
+      "type": "string",
+      "default": "Retour aux formations"
+    },
+    "objectifsSectionTitle": {
+      "type": "string",
+      "default": "Objectifs de la formation"
+    },
+    "programmeSectionTitle": {
+      "type": "string",
+      "default": "Programme de formation"
+    },
+    "debouchesSectionTitle": {
+      "type": "string",
+      "default": "Débouchés professionnels"
+    },
+    "prerequisSectionTitle": {
+      "type": "string",
+      "default": "Prérequis et admission"
+    },
+    "evaluationSectionTitle": {
+      "type": "string",
+      "default": "Modalités d'évaluation"
+    },
+    "poursuiteEtudesSectionTitle": {
+      "type": "string",
+      "default": "Poursuites d'études"
+    },
+    "sidebarTitle": {
+      "type": "string",
+      "default": "Informations pratiques"
+    },
+    "repartitionLabel": {
+      "type": "string",
+      "default": "Répartition"
+    },
+    "financementLabel": {
+      "type": "string",
+      "default": "Financement"
+    },
+    "coutLabel": {
+      "type": "string",
+      "default": "Coût"
+    },
+    "certificateurLabel": {
+      "type": "string",
+      "default": "Certificateur"
+    },
+    "contactLabel": {
+      "type": "string",
+      "default": "Contact"
+    },
+    "entreprisesPartenairesTitle": {
+      "type": "string",
+      "default": "Entreprises partenaires"
+    },
+    "candidaterButtonText": {
+      "type": "string",
+      "default": "Candidater"
+    },
+    "brochureButtonText": {
+      "type": "string",
+      "default": "Brochure"
+    },
+    "candidaterUrl": {
+      "type": "string",
+      "default": "https://cma-education.ymag.cloud/index.php/preinscription/"
+    },
+    "ctaTitle": {
+      "type": "string",
+      "default": "Prêt à démarrer votre formation ?"
+    },
+    "ctaSubtitle": {
+      "type": "string",
+      "default": "Rejoignez nos diplômés en emploi"
+    },
+    "ctaPrimaryButtonText": {
+      "type": "string",
+      "default": "Candidater maintenant"
+    },
+    "ctaSecondaryButtonText": {
+      "type": "string",
+      "default": "Nous contacter"
+    },
+    "ctaSecondaryButtonLink": {
+      "type": "string",
+      "default": "/contact"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "default": "01 89 70 60 52"
+    },
+    "dureeLabel": {
+      "type": "string",
+      "default": "Durée"
+    },
+    "heuresLabel": {
+      "type": "string",
+      "default": "Heures"
+    },
+    "modaliteLabel": {
+      "type": "string",
+      "default": "Modalité"
+    },
+    "effectifLabel": {
+      "type": "string",
+      "default": "Effectif"
+    },
+    "reussiteLabel": {
+      "type": "string",
+      "default": "Réussite"
+    },
+    "insertionLabel": {
+      "type": "string",
+      "default": "Insertion"
+    },
+    "metaTitle": {
+      "type": "string",
+      "default": "Formation {title} - Construction Management Academy"
+    },
+    "metaDescription": {
+      "type": "text",
+      "default": "Découvrez notre formation {title}. Formation BTP en alternance avec un taux d'insertion de {tauxInsertion}."
+    }
+  }
+}
