@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_pedagogie_chiffre_cles",
+  "info": {
+    "displayName": "Chiffre Clé",
+    "icon": "chartPie",
+    "description": "Chiffre clé pour la page pédagogie"
+  },
+  "options": {},
+  "attributes": {
+    "valeur": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": ["Award", "Users", "Cog", "Star", "BookOpen", "Target", "TrendingUp", "Clock"],
+      "default": "Award"
+    },
+    "ordre": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

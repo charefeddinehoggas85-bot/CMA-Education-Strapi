@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_pedagogie_environnement_items",
+  "info": {
+    "displayName": "Environnement Item",
+    "icon": "building",
+    "description": "Élément de l'environnement d'apprentissage"
+  },
+  "options": {},
+  "attributes": {
+    "texte": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": ["Clock", "TrendingUp", "Users", "BookOpen", "Cog", "Target", "Award", "Star"],
+      "default": "Clock"
+    },
+    "ordre": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

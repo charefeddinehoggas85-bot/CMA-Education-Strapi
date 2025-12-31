@@ -1,0 +1,93 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_pedagogies",
+  "info": {
+    "singularName": "page-pedagogie",
+    "pluralName": "page-pedagogies",
+    "displayName": "Page Pédagogie",
+    "description": "Single Type pour gérer la page Pédagogie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Notre Pédagogie d'Excellence"
+    },
+    "heroDescription": {
+      "type": "text",
+      "required": true,
+      "default": "Une approche innovante qui allie théorie et pratique pour former les professionnels BTP de demain"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "chiffresCles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pedagogie.chiffre-cle"
+    },
+    "valeursPedagogiques": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pedagogie.valeur-pedagogique"
+    },
+    "methodesPedagogiques": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pedagogie.methode-pedagogique"
+    },
+    "outilsPedagogiques": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pedagogie.outil-pedagogique"
+    },
+    "environnementTitle": {
+      "type": "string",
+      "default": "Environnement d'Apprentissage"
+    },
+    "environnementItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pedagogie.environnement-item"
+    },
+    "ctaTitle": {
+      "type": "string",
+      "default": "Prêt à Rejoindre Notre École d'Excellence ?"
+    },
+    "ctaDescription": {
+      "type": "text",
+      "default": "Découvrez comment notre pédagogie innovante peut transformer votre carrière dans le BTP."
+    },
+    "ctaPrimaryButtonText": {
+      "type": "string",
+      "default": "Voir nos formations"
+    },
+    "ctaPrimaryButtonLink": {
+      "type": "string",
+      "default": "/formations"
+    },
+    "ctaSecondaryButtonText": {
+      "type": "string",
+      "default": "Nous contacter"
+    },
+    "ctaSecondaryButtonLink": {
+      "type": "string",
+      "default": "/contact"
+    },
+    "metaTitle": {
+      "type": "string",
+      "default": "Notre Pédagogie - CMA Education"
+    },
+    "metaDescription": {
+      "type": "text",
+      "default": "Découvrez notre approche pédagogique innovante pour former les professionnels du BTP"
+    }
+  }
+}

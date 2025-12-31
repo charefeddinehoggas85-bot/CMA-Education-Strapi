@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_pedagogie_methode_pedagogiques",
+  "info": {
+    "displayName": "Méthode Pédagogique",
+    "icon": "cog",
+    "description": "Méthode pédagogique utilisée"
+  },
+  "options": {},
+  "attributes": {
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": ["Cog", "Users", "Heart", "Lightbulb", "Target", "BookOpen", "Award", "Star"],
+      "default": "Cog"
+    },
+    "couleur": {
+      "type": "enumeration",
+      "enum": [
+        "from-blue-500 to-blue-600",
+        "from-green-500 to-green-600",
+        "from-purple-500 to-purple-600",
+        "from-orange-500 to-orange-600",
+        "from-red-500 to-red-600",
+        "from-indigo-500 to-indigo-600"
+      ],
+      "default": "from-blue-500 to-blue-600"
+    },
+    "ordre": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

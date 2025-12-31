@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pedagogie_outil_pedagogiques",
+  "info": {
+    "displayName": "Outil Pédagogique",
+    "icon": "wrench",
+    "description": "Outil pédagogique utilisé"
+  },
+  "options": {},
+  "attributes": {
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "ordre": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

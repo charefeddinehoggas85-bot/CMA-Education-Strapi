@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_pedagogie_valeur_pedagogiques",
+  "info": {
+    "displayName": "Valeur Pédagogique",
+    "icon": "heart",
+    "description": "Valeur pédagogique de l'école"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": ["Target", "Users", "Lightbulb", "Cog", "Heart", "BookOpen", "Award", "Star"],
+      "default": "Target"
+    },
+    "ordre": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}
