@@ -1,0 +1,117 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_brochures",
+  "info": {
+    "singularName": "page-brochure",
+    "pluralName": "page-brochures",
+    "displayName": "Page Brochure",
+    "description": "Single Type pour gérer la page de téléchargement des brochures"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "default": "Télécharger nos brochures"
+    },
+    "heroSubtitle": {
+      "type": "text",
+      "default": "Découvrez en détail nos formations BTP certifiantes. Téléchargez gratuitement les brochures de nos programmes."
+    },
+    "heroBadgeText": {
+      "type": "string",
+      "default": "Brochures Formations"
+    },
+    "formationSectionTitle": {
+      "type": "string",
+      "default": "Choisir une formation"
+    },
+    "formationAvailableText": {
+      "type": "string",
+      "default": "Brochure PDF disponible"
+    },
+    "formationLoadingText": {
+      "type": "string",
+      "default": "Chargement des formations..."
+    },
+    "formSectionTitle": {
+      "type": "string",
+      "default": "Vos informations"
+    },
+    "formSelectedText": {
+      "type": "string",
+      "default": "Formation sélectionnée :"
+    },
+    "formSelectFormationText": {
+      "type": "string",
+      "default": "Sélectionnez d'abord une formation"
+    },
+    "formPrenomLabel": {
+      "type": "string",
+      "default": "Prénom *"
+    },
+    "formNomLabel": {
+      "type": "string",
+      "default": "Nom *"
+    },
+    "formProfilLabel": {
+      "type": "string",
+      "default": "Profil *"
+    },
+    "formProfilPlaceholder": {
+      "type": "string",
+      "default": "Sélectionnez votre profil"
+    },
+    "formProfilOptions": {
+      "type": "json",
+      "default": [
+        {"value": "etudiant", "label": "Étudiant"},
+        {"value": "entreprise", "label": "Entreprise"},
+        {"value": "particulier", "label": "Particulier"},
+        {"value": "demandeur-emploi", "label": "Demandeur d'emploi"}
+      ]
+    },
+    "formEmailLabel": {
+      "type": "string",
+      "default": "Email *"
+    },
+    "formTelephoneLabel": {
+      "type": "string",
+      "default": "Téléphone *"
+    },
+    "environmentTitle": {
+      "type": "string",
+      "default": "Engagement environnemental"
+    },
+    "environmentMessage": {
+      "type": "text",
+      "default": "Cette brochure est un document numérique. Nous vous encourageons à la consulter en ligne."
+    },
+    "environmentFooterText": {
+      "type": "string",
+      "default": "Merci de préserver l'environnement en évitant l'impression"
+    },
+    "downloadButtonText": {
+      "type": "string",
+      "default": "Télécharger la brochure"
+    },
+    "successTitle": {
+      "type": "string",
+      "default": "Brochure téléchargée !"
+    },
+    "successMessage": {
+      "type": "text",
+      "default": "Votre brochure a été téléchargée avec succès. Vous devriez également recevoir un email de confirmation."
+    },
+    "metaTitle": {
+      "type": "string",
+      "default": "Télécharger nos brochures - Construction Management Academy"
+    },
+    "metaDescription": {
+      "type": "text",
+      "default": "Téléchargez gratuitement les brochures de nos formations BTP certifiantes. Découvrez en détail nos programmes en alternance, reconversion et VAE."
+    }
+  }
+}
