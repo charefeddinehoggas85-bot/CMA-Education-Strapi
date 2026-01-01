@@ -1,0 +1,158 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_homes",
+  "info": {
+    "singularName": "page-home",
+    "pluralName": "page-homes",
+    "displayName": "Page Home",
+    "description": "Single Type pour gérer la page d'accueil et ses sections"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "default": "Devenez l'acteur du BTP d'aujourd'hui et de demain"
+    },
+    "heroSubtitle": {
+      "type": "string",
+      "default": "Formations BTP spécialisées"
+    },
+    "heroDescription": {
+      "type": "text",
+      "default": "Alternance, reconversion et VAE. Niveaux 5 à 7 (Bac+2 à Bac+5)."
+    },
+    "heroVideoUrl": {
+      "type": "string",
+      "default": "https://cma-education-strapi-production.up.railway.app/uploads/Design_sans_titre_4_d438e047b5.mp4"
+    },
+    "heroCtaText": {
+      "type": "string",
+      "default": "CANDIDATER MAINTENANT"
+    },
+    "heroCtaUrl": {
+      "type": "string",
+      "default": "https://construction-management-academy.ymag.cloud/index.php/preinscription/"
+    },
+    "formationsSectionBadge": {
+      "type": "string",
+      "default": "Formations Vedette"
+    },
+    "formationsSectionTitle": {
+      "type": "string",
+      "default": "Nos Formations Phares"
+    },
+    "formationsSectionSubtitle": {
+      "type": "text",
+      "default": "Découvrez nos programmes les plus demandés, conçus pour transformer votre carrière dans le BTP"
+    },
+    "formationsSectionCtaText": {
+      "type": "string",
+      "default": "Voir toutes nos formations"
+    },
+    "formationsSectionCtaUrl": {
+      "type": "string",
+      "default": "/formations"
+    },
+    "formatorsSectionBadge": {
+      "type": "string",
+      "default": "Notre Équipe"
+    },
+    "formatorsSectionTitle": {
+      "type": "string",
+      "default": "Nos Formateurs d'Excellence"
+    },
+    "formatorsSectionSubtitle": {
+      "type": "text",
+      "default": "Des experts du BTP passionnés par la transmission de savoir et l'accompagnement de vos projets"
+    },
+    "formatorsSectionCtaText": {
+      "type": "string",
+      "default": "Rencontrer l'équipe complète"
+    },
+    "formatorsSectionCtaUrl": {
+      "type": "string",
+      "default": "/formateurs"
+    },
+    "formatorsBadgeText": {
+      "type": "string",
+      "default": "Expert BTP"
+    },
+    "partnersSectionBadge": {
+      "type": "string",
+      "default": "Nos Partenaires de Confiance"
+    },
+    "partnersSectionTitle": {
+      "type": "string",
+      "default": "Ils nous font confiance"
+    },
+    "partnersSectionSubtitle": {
+      "type": "text",
+      "default": "Des entreprises leaders du BTP qui accueillent nos alternants et participent activement à leur formation professionnelle"
+    },
+    "partnersStatEntreprises": {
+      "type": "string",
+      "default": "Entreprises partenaires"
+    },
+    "partnersStatAlternants": {
+      "type": "string",
+      "default": "Alternants placés"
+    },
+    "partnersStatAlternantsCount": {
+      "type": "string",
+      "default": "150+"
+    },
+    "partnersStatInsertion": {
+      "type": "string",
+      "default": "Taux d'insertion"
+    },
+    "partnersStatInsertionRate": {
+      "type": "string",
+      "default": "98%"
+    },
+    "partnersSectionCtaTitle": {
+      "type": "string",
+      "default": "Découvrez tous nos partenaires"
+    },
+    "partnersSectionCtaSubtitle": {
+      "type": "text",
+      "default": "Explorez notre réseau complet d'entreprises partenaires et découvrez les opportunités d'alternance et d'emploi qui vous attendent"
+    },
+    "partnersSectionCtaText": {
+      "type": "string",
+      "default": "Voir tous nos partenaires"
+    },
+    "partnersSectionCtaUrl": {
+      "type": "string",
+      "default": "/partenaires"
+    },
+    "accessibilityTitle": {
+      "type": "string",
+      "default": "Accessibilité et Inclusion"
+    },
+    "accessibilityMessage": {
+      "type": "text",
+      "default": "Nos formations sont ouvertes à tous, y compris aux personnes en situation de handicap. Nous mettons en place les aménagements nécessaires pour garantir les meilleures conditions d'apprentissage."
+    },
+    "accessibilityReferent": {
+      "type": "string",
+      "default": "notre référent handicap"
+    },
+    "accessibilityImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "metaTitle": {
+      "type": "string",
+      "default": "Construction Management Academy - Formations BTP en Alternance"
+    },
+    "metaDescription": {
+      "type": "text",
+      "default": "Centre de formation BTP spécialisé dans la conduite et le management de travaux. Formations en alternance, reconversion et VAE. Niveaux Bac+2 à Bac+5."
+    }
+  }
+}
