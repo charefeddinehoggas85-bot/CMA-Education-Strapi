@@ -153,6 +153,58 @@
     "metaDescription": {
       "type": "text",
       "default": "Centre de formation BTP spécialisé dans la conduite et le management de travaux. Formations en alternance, reconversion et VAE. Niveaux Bac+2 à Bac+5."
+    },
+    "testimonialsTitle": {
+      "type": "string",
+      "default": "Ils Témoignent"
+    },
+    "testimonialsSubtitle": {
+      "type": "text",
+      "default": "Découvrez les parcours inspirants de nos anciens étudiants qui excellent aujourd'hui dans leurs carrières BTP."
+    },
+    "testimonialsCtaTitle": {
+      "type": "string",
+      "default": "Rejoignez-les !"
+    },
+    "testimonialsCtaSubtitle": {
+      "type": "text",
+      "default": "Commencez votre parcours vers une carrière réussie dans le BTP"
+    },
+    "testimonialsCtaButtonText": {
+      "type": "string",
+      "default": "Candidater maintenant"
+    },
+    "statsTitle": {
+      "type": "string",
+      "default": "Nos chiffres"
+    },
+    "statsSubtitle": {
+      "type": "string",
+      "default": "d'Excellence"
+    },
+    "statsDescription": {
+      "type": "text",
+      "default": "Des résultats qui témoignent de notre excellence et de notre engagement envers la réussite de nos étudiants"
+    },
+    "valuesTitle": {
+      "type": "string",
+      "default": "Nos valeurs chez Construction Management Academy"
+    },
+    "valuesSubtitle": {
+      "type": "text",
+      "default": "Chez Construction Management Academy, nous croyons que la réussite passe par plus que des compétences techniques. C'est pourquoi nous plaçons l'humain, l'engagement et l'excellence au cœur de notre pédagogie."
+    },
+    "valuesCtaText": {
+      "type": "string",
+      "default": "Commencer votre nouvelle carrière"
+    },
+    "valuesCtaDescription": {
+      "type": "text",
+      "default": "Nous formons des professionnels responsables, passionnés et prêts à relever les défis du secteur du BTP avec rigueur et ambition."
+    },
+    "socialProofPartnersText": {
+      "type": "string",
+      "default": "Nos diplômés travaillent dans les plus grandes entreprises du BTP"
     }
   }
 }
