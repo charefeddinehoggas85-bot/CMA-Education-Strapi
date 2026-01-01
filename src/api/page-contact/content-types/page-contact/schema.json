@@ -5,7 +5,7 @@
     "singularName": "page-contact",
     "pluralName": "page-contacts",
     "displayName": "Page Contact",
-    "description": "Single Type pour gérer la page contact/inscription"
+    "description": "Single Type pour gérer la page contact/inscription et la section ContactSection"
   },
   "options": {
     "draftAndPublish": true
@@ -156,6 +156,74 @@
     "formSubmitButtonUrl": {
       "type": "string",
       "default": "https://cma-education.ymag.cloud/index.php/preinscription/"
+    },
+    "sectionBackgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "sectionTitle": {
+      "type": "string",
+      "default": "Rejoignez Construction Management Academy !"
+    },
+    "sectionSubtitle": {
+      "type": "text",
+      "default": "Faites le premier pas vers une carrière concrète, utile et pleine d'avenir dans le BTP."
+    },
+    "callButtonText": {
+      "type": "string",
+      "default": "Nous appeler"
+    },
+    "chatButtonText": {
+      "type": "string",
+      "default": "Chat en direct"
+    },
+    "candidateFormTitle": {
+      "type": "string",
+      "default": "Candidater maintenant"
+    },
+    "candidateFormPrenomPlaceholder": {
+      "type": "string",
+      "default": "Prénom"
+    },
+    "candidateFormNomPlaceholder": {
+      "type": "string",
+      "default": "Nom"
+    },
+    "candidateFormEmailPlaceholder": {
+      "type": "string",
+      "default": "Email"
+    },
+    "candidateFormTelephonePlaceholder": {
+      "type": "string",
+      "default": "Téléphone"
+    },
+    "candidateFormFormationPlaceholder": {
+      "type": "string",
+      "default": "Formation"
+    },
+    "candidateFormMessagePlaceholder": {
+      "type": "string",
+      "default": "Votre message"
+    },
+    "candidateFormSubmitText": {
+      "type": "string",
+      "default": "Accéder à la préinscription"
+    },
+    "candidateFormSubmitUrl": {
+      "type": "string",
+      "default": "https://construction-management-academy.ymag.cloud/index.php/preinscription/"
+    },
+    "formationOptions": {
+      "type": "json",
+      "default": [
+        {"value": "charge-affaires-batiment-alternance", "label": "Chargé d'Affaires du Bâtiment"},
+        {"value": "conducteur-travaux-batiment-alternance", "label": "Conducteur de Travaux Bâtiment"},
+        {"value": "chef-chantier-vrd-alternance", "label": "Chef de Chantier VRD"},
+        {"value": "double-parcours-bim-alternance", "label": "Double Parcours BIM"},
+        {"value": "chef-projets-btp-alternance", "label": "Chef de Projets BTP"}
+      ]
     },
     "metaTitle": {
       "type": "string",
