@@ -1,0 +1,132 @@
+{
+  "kind": "singleType",
+  "collectionName": "floating_actions",
+  "info": {
+    "singularName": "floating-actions",
+    "pluralName": "floating-actions-config",
+    "displayName": "Floating Actions",
+    "description": "Single Type pour gérer la configuration des boutons d'actions flottants"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phoneNumber": {
+      "type": "string",
+      "default": "0189706052"
+    },
+    "phoneLabel": {
+      "type": "string",
+      "default": "Appeler"
+    },
+    "phoneFullLabel": {
+      "type": "string",
+      "default": "Nous appeler"
+    },
+    "email": {
+      "type": "string",
+      "default": "contact.academy@cma-education.com"
+    },
+    "emailLabel": {
+      "type": "string",
+      "default": "Email"
+    },
+    "emailFullLabel": {
+      "type": "string",
+      "default": "Nous écrire"
+    },
+    "contactLabel": {
+      "type": "string",
+      "default": "RDV"
+    },
+    "contactFullLabel": {
+      "type": "string",
+      "default": "Prendre RDV"
+    },
+    "contactUrl": {
+      "type": "string",
+      "default": "/contact"
+    },
+    "brochureLabel": {
+      "type": "string",
+      "default": "Brochure"
+    },
+    "brochureFullLabel": {
+      "type": "string",
+      "default": "Télécharger brochure"
+    },
+    "chatLabel": {
+      "type": "string",
+      "default": "Chat en direct"
+    },
+    "whatsappNumber": {
+      "type": "string",
+      "default": "+33185097106"
+    },
+    "whatsappTitle": {
+      "type": "string",
+      "default": "Support Construction Management Academy"
+    },
+    "whatsappStatus": {
+      "type": "string",
+      "default": "En ligne"
+    },
+    "whatsappMessage": {
+      "type": "text",
+      "default": "Besoin d'aide ? Contactez-nous sur WhatsApp pour toutes vos questions sur nos formations BTP !"
+    },
+    "whatsappButtonText": {
+      "type": "string",
+      "default": "Démarrer la conversation"
+    },
+    "whatsappDefaultMessage": {
+      "type": "text",
+      "default": "Bonjour, je souhaite obtenir des informations sur les formations Construction Management Academy BTP."
+    },
+    "isPhoneEnabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "isEmailEnabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "isContactEnabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "isBrochureEnabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "isWhatsappEnabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "mainButtonColor": {
+      "type": "string",
+      "default": "bg-gradient-to-r from-primary-blue to-purple-600"
+    },
+    "phoneButtonColor": {
+      "type": "string",
+      "default": "bg-green-500 hover:bg-green-600"
+    },
+    "emailButtonColor": {
+      "type": "string",
+      "default": "bg-blue-500 hover:bg-blue-600"
+    },
+    "contactButtonColor": {
+      "type": "string",
+      "default": "bg-purple-500 hover:bg-purple-600"
+    },
+    "brochureButtonColor": {
+      "type": "string",
+      "default": "bg-orange-500 hover:bg-orange-600"
+    },
+    "whatsappButtonColor": {
+      "type": "string",
+      "default": "bg-green-500 hover:bg-green-600"
+    }
+  }
+}
