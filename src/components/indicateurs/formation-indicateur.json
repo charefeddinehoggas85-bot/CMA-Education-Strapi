@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_indicateurs_formation_indicateurs",
+  "info": {
+    "displayName": "Formation Indicateur",
+    "description": "Indicateurs de performance pour une formation"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string",
+      "required": true
+    },
+    "certification": {
+      "type": "string",
+      "required": true
+    },
+    "modeFormation": {
+      "type": "enumeration",
+      "enum": ["Alternance", "VAE"],
+      "required": true
+    },
+    "tauxReussiteCertification": {
+      "type": "string",
+      "default": "en cours"
+    },
+    "tauxInsertionProfessionnelle": {
+      "type": "string",
+      "default": "en cours"
+    },
+    "tauxPoursuiteEtudes": {
+      "type": "string",
+      "default": "en cours"
+    },
+    "tauxSatisfactionBeneficiaires": {
+      "type": "string",
+      "default": "en cours"
+    },
+    "tauxRuptureAlternance": {
+      "type": "string",
+      "default": "en cours"
+    },
+    "tauxReussiteNational": {
+      "type": "string",
+      "default": "en cours"
+    },
+    "valeurAjouteeCMA": {
+      "type": "string",
+      "default": "en cours"
+    },
+    "annee": {
+      "type": "string",
+      "default": "2025-26"
+    }
+  }
+}

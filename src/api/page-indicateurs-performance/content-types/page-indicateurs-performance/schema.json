@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_indicateurs_performances",
+  "info": {
+    "singularName": "page-indicateurs-performance",
+    "pluralName": "page-indicateurs-performances",
+    "displayName": "Page Indicateurs Performance",
+    "description": "Page des indicateurs de performance et de résultats"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string",
+      "required": true,
+      "default": "Nos indicateurs de performance et de résultats"
+    },
+    "sousTitre": {
+      "type": "string",
+      "default": "Conformément à l'article L.6111-8 du Code du travail"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "conformiteArticle": {
+      "type": "string",
+      "default": "Conformément à l'article L.6111-8 du Code du travail"
+    },
+    "engagement": {
+      "type": "text",
+      "required": true
+    },
+    "transparence": {
+      "type": "text",
+      "required": true
+    },
+    "anneeReference": {
+      "type": "string",
+      "required": true,
+      "default": "2025-26"
+    },
+    "formations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "indicateurs.formation-indicateur"
+    },
+    "noteMethodologique": {
+      "type": "richtext",
+      "required": true
+    },
+    "contactInfo": {
+      "type": "richtext",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}
