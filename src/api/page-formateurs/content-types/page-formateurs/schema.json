@@ -5,7 +5,7 @@
     "singularName": "page-formateurs",
     "pluralName": "page-formateurs-contents",
     "displayName": "Page Formateurs",
-    "description": "Single Type pour la page Formateurs - Équipe pédagogique"
+    "description": "Single Type pour la page Formateurs"
   },
   "options": {
     "draftAndPublish": true
@@ -18,14 +18,7 @@
       "default": "Notre Équipe Pédagogique"
     },
     "heroSubtitle": {
-      "type": "text",
-      "required": false
-    },
-    "heroImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": ["images"]
+      "type": "text"
     },
     "teamSectionTitle": {
       "type": "string",
@@ -40,11 +33,6 @@
     },
     "valuesSectionDescription": {
       "type": "text"
-    },
-    "valeurs": {
-      "type": "component",
-      "repeatable": true,
-      "component": "formateurs.valeur-pedagogique"
     },
     "ctaTitle": {
       "type": "string",
