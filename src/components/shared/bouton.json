@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_boutons",
+  "info": {
+    "displayName": "Bouton",
+    "icon": "cursor",
+    "description": "Composant bouton réutilisable"
+  },
+  "options": {},
+  "attributes": {
+    "texte": {
+      "type": "string",
+      "required": true
+    },
+    "lien": {
+      "type": "string",
+      "required": false
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["primary", "secondary", "outline"],
+      "required": true,
+      "default": "primary"
+    },
+    "taille": {
+      "type": "enumeration",
+      "enum": ["small", "medium", "large"],
+      "required": true,
+      "default": "medium"
+    },
+    "icone": {
+      "type": "string",
+      "required": false
+    },
+    "ouvrirNouvelOnglet": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    }
+  }
+}
