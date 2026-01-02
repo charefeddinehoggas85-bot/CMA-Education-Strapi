@@ -20,6 +20,12 @@
     "heroSubtitle": {
       "type": "text"
     },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
     "teamSectionTitle": {
       "type": "string",
       "default": "Rencontrez Nos Experts"
@@ -33,6 +39,11 @@
     },
     "valuesSectionDescription": {
       "type": "text"
+    },
+    "valeurs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "formateurs.valeur-pedagogique"
     },
     "ctaTitle": {
       "type": "string",
@@ -56,6 +67,14 @@
     "ctaSecondaryButtonLink": {
       "type": "string",
       "default": "/about"
+    },
+    "metaTitle": {
+      "type": "string",
+      "default": "Nos Formateurs - Construction Management Academy"
+    },
+    "metaDescription": {
+      "type": "text",
+      "default": "Découvrez notre équipe de formateurs experts du BTP"
     }
   }
 }
