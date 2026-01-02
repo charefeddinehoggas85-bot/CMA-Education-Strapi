@@ -67,7 +67,7 @@
     },
     "phoneValue": {
       "type": "string",
-      "default": "01 89 70 60 52"
+      "default": "01 85 09 71 06"
     },
     "emailLabel": {
       "type": "string",

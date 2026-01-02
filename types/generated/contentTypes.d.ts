@@ -1509,7 +1509,7 @@ export interface ApiPageAdmissionPageAdmission extends Schema.SingleType {
       Attribute.DefaultTo<'Comment int\u00E9grer CMA ?'>;
     introduction: Attribute.Text;
     heroImage: Attribute.Media<'images'>;
-    contactPhone: Attribute.String & Attribute.DefaultTo<'01 89 70 60 52'>;
+    contactPhone: Attribute.String & Attribute.DefaultTo<'01 85 09 71 06'>;
     contactEmail: Attribute.Email &
       Attribute.DefaultTo<'inscription.academy@cma-education.com'>;
     ctaTexte: Attribute.String &
@@ -1623,7 +1623,7 @@ export interface ApiPageEntreprisePageEntreprise extends Schema.SingleType {
       Attribute.DefaultTo<'Nous contacter'>;
     ctaBoutonSecondaire: Attribute.String &
       Attribute.DefaultTo<'T\u00E9l\u00E9charger la brochure'>;
-    telephone: Attribute.String & Attribute.DefaultTo<'01 89 70 60 52'>;
+    telephone: Attribute.String & Attribute.DefaultTo<'01 85 09 71 06'>;
     email: Attribute.String &
       Attribute.DefaultTo<'contact.academy@cma-education.com'>;
     createdAt: Attribute.DateTime;
@@ -1912,7 +1912,7 @@ export interface ApiSiteSettingSiteSetting extends Schema.SingleType {
     siteDescription: Attribute.Text;
     logo: Attribute.Media<'images'>;
     favicon: Attribute.Media<'images'>;
-    contactPhone: Attribute.String & Attribute.DefaultTo<'01 89 70 60 52'>;
+    contactPhone: Attribute.String & Attribute.DefaultTo<'01 85 09 71 06'>;
     contactEmail: Attribute.Email &
       Attribute.DefaultTo<'contact.academy@cma-education.com'>;
     contactAddress: Attribute.Text;
