@@ -1,9 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "page_formateurs",
+  "collectionName": "page_formateurs_content",
   "info": {
     "singularName": "page-formateurs",
-    "pluralName": "page-formateurs",
+    "pluralName": "page-formateurs-contents",
     "displayName": "Page Formateurs",
     "description": "Single Type pour la page Formateurs - Équipe pédagogique"
   },
