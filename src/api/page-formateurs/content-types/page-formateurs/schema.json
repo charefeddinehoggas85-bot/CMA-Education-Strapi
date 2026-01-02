@@ -1,0 +1,78 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_formateurs",
+  "info": {
+    "singularName": "page-formateurs",
+    "pluralName": "page-formateurs",
+    "displayName": "Page Formateurs",
+    "description": "Single Type pour la page Formateurs - Équipe pédagogique"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Notre Équipe Pédagogique"
+    },
+    "heroSubtitle": {
+      "type": "text",
+      "required": false
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    },
+    "teamSectionTitle": {
+      "type": "string",
+      "default": "Rencontrez Nos Experts"
+    },
+    "teamSectionDescription": {
+      "type": "text"
+    },
+    "valuesSectionTitle": {
+      "type": "string",
+      "default": "Nos Valeurs Pédagogiques"
+    },
+    "valuesSectionDescription": {
+      "type": "text"
+    },
+    "valeurs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "formateurs.valeur-pedagogique"
+    },
+    "ctaTitle": {
+      "type": "string",
+      "default": "Rejoignez Notre Équipe"
+    },
+    "ctaDescription": {
+      "type": "text"
+    },
+    "ctaPrimaryButtonText": {
+      "type": "string",
+      "default": "Postuler"
+    },
+    "ctaPrimaryButtonLink": {
+      "type": "string",
+      "default": "/contact"
+    },
+    "ctaSecondaryButtonText": {
+      "type": "string",
+      "default": "En savoir plus"
+    },
+    "ctaSecondaryButtonLink": {
+      "type": "string",
+      "default": "/about"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

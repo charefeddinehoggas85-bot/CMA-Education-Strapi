@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_formateurs_valeur_pedagogiques",
+  "info": {
+    "displayName": "Valeur Pédagogique",
+    "description": "Composant pour les valeurs pédagogiques de l'équipe",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "required": true,
+      "default": "Users"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
